@@ -1,0 +1,13 @@
+;-------------------------------------
+; Go.DEF module definition file
+;-------------------------------------
+
+NAME           Go
+
+DESCRIPTION    'Old-Games.org Win3.11 Launcher'
+EXETYPE        WINDOWS
+STUB           'WINSTUB.EXE'
+CODE           PRELOAD MOVEABLE DISCARDABLE
+DATA           PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE       1024
+STACKSIZE      8192
